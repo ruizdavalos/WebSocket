@@ -1,0 +1,25 @@
+
+
+
+<div style="width: 70%;  background:burlywood; display: flex; justify-content: center; margin-top: 1rem; padding: 1rem; " >
+
+    <h4>Ingrese Nuevo Producto</h4>
+
+    <form action="/formulario" method="post" enctype="multipart/form-data"  style="width: 60%; " >
+        <div class="mb-3" >
+            <label class="form-label" >Nombre Producto</label>
+            <input type="text" name="nombreProducto" class="form-control"  >
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Precio produto</label>
+            <input type="number" name="precio" class="form-control" >
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" >Cargar Imagen</label>
+            <input type="file" style="display:block ;"  name="img" required >
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+

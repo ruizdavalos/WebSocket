@@ -1,0 +1,16 @@
+
+
+<table style="background: brown; color: black; width: 70%; text-align:center;">
+    <tr>
+        <th style="padding: 5px 3.2rem; " > Producto </th>
+        <th style="padding: 5px 3.2rem;"> Precio </th>
+        <th style="padding: 5px 3.2rem;"> Imagen </th>
+    </tr>
+    <% for( const producto of listaDeProductos ){%>
+        <tr class="text-white bg-dark " >
+            <td> <%= producto.nombreProducto %> </td>
+            <td> $ <%= producto.precio %> </td>
+            <td> <%= producto.img %> </td>
+        </tr>
+    <%}%>
+</table>

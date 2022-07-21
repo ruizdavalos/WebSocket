@@ -1,0 +1,10 @@
+
+
+Carga de imagenes FAZT =
+	https://www.bing.com/videos/search?q=como+mostrar+en+el+html+la+imgen+cargada+con+multer&docid=607999431997326705&mid=4B8CDA7902A7A3758A504B8CDA7902A7A3758A50&view=detail&FORM=VIRE
+	
+	GUARDAR IMG =
+		https://cloudinary.com/
+		amazons3
+
+	
